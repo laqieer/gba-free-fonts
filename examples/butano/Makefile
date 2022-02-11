@@ -29,23 +29,16 @@ PYTHON      :=  python
 SOURCES     :=  src
 INCLUDES    :=  $(BUILD)
 DATA        :=
-GRAPHICS    :=  graphics
+GRAPHICS    :=  graphics $(BUILD)/fonts
 AUDIO       :=  audio
 FONTS       :=  ../../common/fonts/SimplifiedChinese ../../common/fonts/Japanese ../../common/fonts/Korean ../../common/fonts/TraditionalChinese ../../common/fonts/TraditionalChineseHK
-ROMTITLE    :=  BUTANO TEXT
+ROMTITLE    :=  FREE FONT
 ROMCODE     :=  SBTP
 USERFLAGS   :=  
 USERLIBDIRS :=  
 USERLIBS    :=  
 USERBUILD   :=  
-EXTTOOL     :=  
-
-#---------------------------------------------------------------------------------------------------------------------
-# Install Pillow to handle fonts:
-#---------------------------------------------------------------------------------------------------------------------
-ifneq ($(strip $(FONTS)),)
-EXTTOOL += 
-endif
+EXTTOOL     :=  $(PYTHON) $(LIBBUTANO)/tools/butano_fonts_tool.py --build=$(BUILD) --fonts="$(FONTS)"
 
 #---------------------------------------------------------------------------------------------------------------------
 # Export absolute butano path:
