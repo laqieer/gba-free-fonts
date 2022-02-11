@@ -31,14 +31,14 @@ namespace
         common_tc_font_text_generator.set_center_alignment();
 
         bn::vector<bn::sprite_ptr, 32> common_tc_font_text_sprites;
-        common_tc_font_text_generator.generate(0, -20, "繁体中文（台灣）4808個常用國字", common_tc_font_text_sprites);
+        common_tc_font_text_generator.generate(0, -20, "繁體中文（台灣）4808個常用國字", common_tc_font_text_sprites);
         common_tc_font_text_generator.generate(0, 0, "+ 6341個次常用國字", common_tc_font_text_sprites);
 
         bn::sprite_text_generator common_hc_font_text_generator(common_hc_variable_16x16_sprite_font);
         common_hc_font_text_generator.set_center_alignment();
 
         bn::vector<bn::sprite_ptr, 32> common_hc_font_text_sprites;
-        common_hc_font_text_generator.generate(0, 20, "繁体中文（香港）小學學習4807字", common_hc_font_text_sprites);
+        common_hc_font_text_generator.generate(0, 20, "繁體中文（香港）小學學習4807字", common_hc_font_text_sprites);
 
         bn::sprite_text_generator common_jp_font_text_generator(common_jp_variable_16x16_sprite_font);
         common_jp_font_text_generator.set_center_alignment();
