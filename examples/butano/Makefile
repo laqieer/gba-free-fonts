@@ -40,7 +40,7 @@ USERFLAGS   :=
 USERLIBDIRS :=  
 USERLIBS    :=  
 USERBUILD   :=  
-EXTTOOL     :=  $(PYTHON) $(LIBBUTANO)/tools/butano_fonts_tool.py --build=$(BUILD) --fonts="$(FONTS)" --texts="$(TEXTS)"
+EXTTOOL     :=  $(PYTHON) ../../tools/butano/butano_fonts_tool.py --build=$(BUILD) --fonts="$(FONTS)" --texts="$(TEXTS)"
 
 #---------------------------------------------------------------------------------------------------------------------
 # Export absolute butano path:
