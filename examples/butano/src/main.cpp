@@ -15,6 +15,7 @@
 #include "unifont_sprite_font.h"
 #include "source_han_serif_jp_sprite_font.h"
 #include "source_han_sans_jp_sprite_font.h"
+#include "source_han_mono_jp_sprite_font.h"
 
 namespace
 {
@@ -101,6 +102,27 @@ namespace
             bn::core::update();
         }
     }
+
+    void source_han_mono_text_scene()
+    {
+        bn::sprite_text_generator text_generator(source_han_mono_jp_sprite_font);
+        text_generator.set_center_alignment();
+
+        bn::vector<bn::sprite_ptr, 128>text_sprites;
+        text_generator.generate(0, -68, "- Source Han Mono | 思源等宽 | 思源等寬 -", text_sprites);
+        text_generator.generate(0, -48, "- 思源等寬 香港 | 源ノ等幅 | 본모노 -", text_sprites);
+        text_generator.generate(0, -28, "SC 简体中文", text_sprites);
+        text_generator.generate(0, -8, "TC  繁體中文（台灣）", text_sprites);
+        text_generator.generate(0, 12, "HC 繁體中文（香港）", text_sprites);
+        text_generator.generate(0, 32, "JP 日本語（にほんご ）", text_sprites);
+        text_generator.generate(0, 52, "KR 한국어", text_sprites);
+        text_generator.generate(0, 72, "♨➑☆★♡✂♪♫", text_sprites);
+
+        while(! bn::keypad::start_pressed())
+        {
+            bn::core::update();
+        }
+    }
 }
 
 int main()
@@ -121,6 +143,9 @@ int main()
         bn::core::update();
 
         source_han_sans_text_scene();
+        bn::core::update();
+
+        source_han_mono_text_scene();
         bn::core::update();
     }
 }
