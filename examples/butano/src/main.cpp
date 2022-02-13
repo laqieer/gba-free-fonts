@@ -48,7 +48,7 @@ namespace
         text_generator.generate(0, -48, "English Français русский язык", text_sprites);
         text_generator.generate(0, -28, "简体中文 繁體中文（台灣）", text_sprites);
         text_generator.generate(0, -8, "繁體中文（香港）Монголхэл", text_sprites);
-        text_generator.generate(0, 12, "日本語（にほんご ）한국어", text_sprites);
+        text_generator.generate(0, 12, "日本語（にほんご ）한국어 𣑋𠗖", text_sprites);
         text_generator.generate(0, 32, "Tiếng Việt ภาษาไทย", text_sprites);
         text_generator.generate(0, 52, "Македонски Ўзбекча", text_sprites);
         text_generator.generate(0, 72, "☺♨➑☆★♡✂♪♫☑", text_sprites);
