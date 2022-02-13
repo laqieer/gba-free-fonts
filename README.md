@@ -9,7 +9,7 @@ This repo contains many free-to-use fonts which are ready-to-use in your GBA pro
 
 |Name|License|Characters|Preview|
 |---|---|---|---|
-|[HanaMin(Hanazono Mincho) / 花園明朝 / 花园宋体](http://fonts.jp/hanazono/)|[Hanazono Font License + SIL OFL 1.1](https://github.com/laqieer/gba-free-fonts/blob/main/licenses/HanaMin.txt)|101912|![butano-0](https://user-images.githubusercontent.com/8841957/153765052-db74e61f-0499-42bb-bb3b-51a682fdb1df.png)|
+|[HanaMin(Hanazono Mincho) / 花園明朝 / 花园宋体](http://fonts.jp/hanazono/)|[Hanazono Font License + SIL OFL 1.1](https://github.com/laqieer/gba-free-fonts/blob/main/licenses/HanaMin.txt)|101912|![butano-6](https://user-images.githubusercontent.com/8841957/153766387-8777579a-e9fa-43b1-bf28-30134a80b758.png)|
 |[GNU Unifont](http://unifoundry.com/unifont/index.html)|[GNU GPLv2+ with the GNU Font Embedding Exception + SIL OFL 1.1](https://github.com/laqieer/gba-free-fonts/blob/main/licenses/Unifont.txt)|78934|![butano-1](https://user-images.githubusercontent.com/8841957/153765067-a994484b-317a-4965-877f-e964300d6f64.png)|
 |[BabelStone Han](https://www.babelstone.co.uk/Fonts/Han.html)|[Arphic Public License](https://github.com/laqieer/gba-free-fonts/blob/main/licenses/BabelStoneHan.txt)|59664|![butano-2](https://user-images.githubusercontent.com/8841957/153765075-3ea383e3-2e30-4fa8-964b-b68d792b186c.png)|
 |[Source Han Serif / 思源宋体 / 思源宋體 / 源ノ明朝 / 본명조](https://source.typekit.com/source-han-serif/)|[SIL OFL 1.1](https://github.com/laqieer/gba-free-fonts/blob/main/licenses/SourceHanSerif.txt)|44748|![butano-3](https://user-images.githubusercontent.com/8841957/153765082-a43b5ed0-0ffa-45e2-9020-393b2e20b040.png)|
