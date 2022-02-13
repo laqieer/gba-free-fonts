@@ -26,7 +26,7 @@ namespace
         text_generator.set_center_alignment();
 
         bn::vector<bn::sprite_ptr, 128>text_sprites;
-        text_generator.generate(0, -68, "- HanaMin / 花園明朝 / 花园明朝 -", text_sprites);
+        text_generator.generate(0, -68, "- HanaMin / 花園明朝 / 花园宋体 -", text_sprites);
         text_generator.generate(0, -48, "English Français русский язык", text_sprites);
         text_generator.generate(0, -28, "简体中文 繁體中文（台灣）", text_sprites);
         text_generator.generate(0, -8, "繁體中文（香港）Монголхэл", text_sprites);
