@@ -3,7 +3,7 @@ Free font resources for GBA game developemnt
 
 This repo contains many free-to-use fonts which are ready-to-use in your GBA project.
 
-*History: it starts [here](https://github.com/GValiente/butano/pull/18).*
+**Note:** source code are under [zlib license](https://github.com/laqieer/gba-free-fonts/blob/main/LICENSE), fonts are under their own licenses.
 
 ## Fonts & Licenses
 
@@ -54,3 +54,5 @@ bn::sprite_text_generator text_generator(xxx_sprite_font);
 ```
 
 ## [Others](https://github.com/laqieer/gba-free-fonts/blob/main/others.md)
+
+*History: it starts [here](https://github.com/GValiente/butano/pull/18).*
