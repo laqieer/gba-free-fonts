@@ -1,4 +1,4 @@
-Free-to-use 1bpp dot matrix fonts
+# Free-to-use 1bpp dot matrix fonts
 
 |Name|License|Size|Characters|
 |---|---|---|---|
@@ -9,4 +9,3 @@ Free-to-use 1bpp dot matrix fonts
 |[Shinonome](http://openlab.ring.gr.jp/efont/shinonome/index.html)|Public Domain|12 dots, 14 dots, 16 dots|Japanese-related portion|
 |[IPix (中文像素字体)](https://purestudio.itch.io/ipix)|You could use it in free and commercial game|12pt|6000 characters in Chinese|
 |[Zpix (最像素)](https://github.com/SolidZORO/zpix-pixel-font)|FREE for Education/Personal Product, pay for Commercial/Business Product|12px (11px + 1px padding)|21998 (English / Traditional Chinese / Simplified Chinese / Japanese)|
-|[Dinkie Bitmap (丁卯点阵体)](https://3type.cn/fonts/dinkie_bitmap/index.html)|commercial license|7px, 9px|简体中文 (GB2312), 繁體中文(BIG-5), 日本語(JIS), English, Spanish, German, French, Italian, Russian, Greek, Arabic, Persian, Hebrew…|
