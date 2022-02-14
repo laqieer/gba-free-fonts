@@ -37,14 +37,14 @@ dnf install python3-pillow
 # For Arch Linux users
 pacman -S python37-pillow
 ```
-1. Set path in `Mekefile`
+2. Set path in `Mekefile`
 ```Makefile
 # FONTS is a list of directories containing font files.
 FONTS       :=  
 # TEXTS is a list of directories or filenames containing text files.
 TEXTS       :=  
 ```
-1. Bind it to a `bn::sprite_text_generator` in source code
+3. Bind it to a `bn::sprite_text_generator` in source code
 ```C++
 #include "xxx_sprite_font.h"
 bn::sprite_text_generator text_generator(xxx_sprite_font);
