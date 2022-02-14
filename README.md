@@ -21,7 +21,7 @@ This repo contains many free-to-use fonts which are ready-to-use in your GBA pro
 ### For [Butano](https://github.com/GValiente/butano)
 
 1. Install [Pillow](https://pillow.readthedocs.io/en/stable/installation.html)
-```
+```sh
 # For MSYS2/MinGW-w64 users
 pacman -S mingw-w64-x86_64-python-pillow
 # For WSL2/Ubuntu/Debian users
@@ -38,14 +38,14 @@ dnf install python3-pillow
 pacman -S python37-pillow
 ```
 1. Set path in `Mekefile`
-```
+```Makefile
 # FONTS is a list of directories containing font files.
 FONTS       :=  
 # TEXTS is a list of directories or filenames containing text files.
 TEXTS       :=  
 ```
 1. Bind it to a `bn::sprite_text_generator` in source code
-```
+```C++
 #include "xxx_sprite_font.h"
 bn::sprite_text_generator text_generator(xxx_sprite_font);
 ```
