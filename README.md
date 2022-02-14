@@ -23,6 +23,8 @@ This repo contains many free-to-use fonts which are ready-to-use in your GBA pro
 
 ### For [Butano](https://github.com/GValiente/butano)
 
+[This is an example](https://github.com/laqieer/gba-dev-best-practice/commit/01f91a3e08a6f61ec0c0b8fbb60eab62121172fc) to show how to use a font in your project.
+
 1. Install [Pillow](https://pillow.readthedocs.io/en/stable/installation.html)
 ```sh
 # For MSYS2/MinGW-w64 users
