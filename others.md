@@ -9,3 +9,4 @@
 |[Shinonome](http://openlab.ring.gr.jp/efont/shinonome/index.html)|Public Domain|12 dots, 14 dots, 16 dots|Japanese-related portion|
 |[IPix (中文像素字体)](https://purestudio.itch.io/ipix)|You could use it in free and commercial game|12pt|6000 characters in Chinese|
 |[Zpix (最像素)](https://github.com/SolidZORO/zpix-pixel-font)|FREE for Education/Personal Product, pay for Commercial/Business Product|12px (11px + 1px padding)|21998 (English / Traditional Chinese / Simplified Chinese / Japanese)|
+|[Vonwaon Bitmap](凤凰点阵体)|public domain under CC0 1.0 license|12px and 16px (9pt and 12pt accordingly)|7543 glyphs in total, including 6763 Chinese characters|
