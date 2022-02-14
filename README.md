@@ -20,3 +20,5 @@ This repo contains many free-to-use fonts which are ready-to-use in your GBA pro
 
 For supported engines:
 - [Butano](https://github.com/GValiente/butano)
+
+## [Others](https://github.com/laqieer/gba-free-fonts/blob/main/others.md)
