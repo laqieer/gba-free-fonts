@@ -86,7 +86,7 @@ def process_fonts_files(fonts_file_paths, build_folder_path):
         font_name = fonts_file_name_no_ext + '_sprite_font'
         fonts_header_path = build_folder_path + '/' + font_name + '.h'
 
-        with open(fonts_file_path, 'r') as fonts_file, open(fonts_header_path, 'w', encoding='utf-8') as header_file:
+        with open(fonts_file_path, 'r', encoding='utf-8') as fonts_file, open(fonts_header_path, 'w', encoding='utf-8') as header_file:
             font_chars = []
             font_widths = [0] * 95
             unique_chars = unique_characters.copy()
