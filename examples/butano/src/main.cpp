@@ -18,6 +18,7 @@
 #include "source_han_sans_jp_sprite_font.h"
 #include "source_han_mono_jp_sprite_font.h"
 #include "wqy_zenhei_sprite_font.h"
+#include "wqy_microhei_sprite_font.h"
 
 namespace
 {
@@ -157,9 +158,30 @@ namespace
         text_generator.generate(0, -48, "- Zenhei 文泉驿正黑 文泉驛正黑 -", text_sprites);
         text_generator.generate(0, -28, "简体:义礼说选 繁體:義禮說選", text_sprites);
         text_generator.generate(0, -8, "日本語（にほんご ）한국어", text_sprites);
-        text_generator.generate(0, 12, "扩A:㡛㬐㖧䵍 扩B:㡛㬐㖧䵍", text_sprites);
+        text_generator.generate(0, 12, "扩A:㡛㬐㖧䵍㒰㓀㐁㐂㐃㐄㐅", text_sprites);
         text_generator.generate(0, 32, "兼容:豈更車賈  增补:乁凵仌㒹", text_sprites);
-        text_generator.generate(0, 52, "♨☆★♡♪♫ ↑ ↓ ← → ↖ ↗ ↙ ↘ ", text_sprites);
+        text_generator.generate(0, 52, "♨☆★♡♪♫↑↓←→↖↗↙↘", text_sprites);
+        text_generator.generate(0, 72, "~ 开彼源兮，斯流永继 ~", text_sprites);
+
+        while(! bn::keypad::start_pressed())
+        {
+            bn::core::update();
+        }
+    }
+
+    void wqy_microhei_text_scene()
+    {
+        bn::sprite_text_generator text_generator(wqy_microhei_sprite_font);
+        text_generator.set_center_alignment();
+
+        bn::vector<bn::sprite_ptr, 128>text_sprites;
+        text_generator.generate(0, -68, "- WenQuanYi (Spring of Letters) -", text_sprites);
+        text_generator.generate(0, -48, "- Microhei 文泉驿微米黑 文泉驛微米黑 -", text_sprites);
+        text_generator.generate(0, -28, "简体:义礼说选 繁體:義禮說選", text_sprites);
+        text_generator.generate(0, -8, "日本語（にほんご ）한국어", text_sprites);
+        text_generator.generate(0, 12, "不支持扩展A区！", text_sprites);
+        text_generator.generate(0, 32, "兼容:豈更車賈  不支持增补！", text_sprites);
+        text_generator.generate(0, 52, "♨☆★♡♪↑↓←→↖↗↙↘", text_sprites);
         text_generator.generate(0, 72, "~ 开彼源兮，斯流永继 ~", text_sprites);
 
         while(! bn::keypad::start_pressed())
@@ -196,6 +218,9 @@ int main()
         bn::core::update();
 
         wqy_zenhei_text_scene();
+        bn::core::update();
+
+        wqy_microhei_text_scene();
         bn::core::update();
     }
 }
