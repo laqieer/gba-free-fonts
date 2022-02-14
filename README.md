@@ -16,7 +16,7 @@ This repo contains many free-to-use fonts which are ready-to-use in your GBA pro
 |[Source Han Sans / 思源黑体 / 思源黑體 / 源ノ角ゴシック / 본고딕](https://github.com/adobe-fonts/source-han-sans)|[SIL OFL 1.1](https://github.com/laqieer/gba-free-fonts/blob/main/licenses/SourceHanSans.txt)|42222|![butano-4](https://user-images.githubusercontent.com/8841957/153765091-42e9c55f-f4fa-449d-a4c8-7e0225de5a97.png)|
 |[Source Han Mono / 思源等宽 / 思源等寬 / 源ノ等幅 / 본모노](https://github.com/adobe-fonts/source-han-mono)|[SIL OFL 1.1](https://github.com/laqieer/gba-free-fonts/blob/main/licenses/SourceHanMono.txt)|44798|![butano-5](https://user-images.githubusercontent.com/8841957/153765098-8fef30d5-769a-4cc2-83ad-1b6cee7f296e.png)|
 |[WQY(Wen Quan Yi)(Spring of Letters) Zen Hei / 文泉驿正黑](http://wenq.org/wqy2/index.cgi?ZenHei)|[GPL](https://github.com/laqieer/gba-free-fonts/blob/main/licenses/WQYZenHei.txt)|42285||
-|[WQY(Wen Quan Yi)(Spring of Letters) Micro Hei / 文泉驿微米黑](http://wenq.org/wqy2/index.cgi?MicroHei)|[APL 2.0](https://github.com/laqieer/gba-free-fonts/blob/main/licenses/WQYMicroHei.1.txt) + [GNU GPLv3 with font embedding exceptions](https://github.com/laqieer/gba-free-fonts/blob/main/licenses/WQYMicroHei.2.txt)|42285||
+|[WQY(Wen Quan Yi)(Spring of Letters) Micro Hei / 文泉驿微米黑](http://wenq.org/wqy2/index.cgi?MicroHei)|[APL 2.0](https://github.com/laqieer/gba-free-fonts/blob/main/licenses/WQYMicroHei.1.txt) + [GNU GPLv3 with font embedding exceptions](https://github.com/laqieer/gba-free-fonts/blob/main/licenses/WQYMicroHei.2.txt)|34600||
 
 
 ## Guide
