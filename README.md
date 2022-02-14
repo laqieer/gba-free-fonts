@@ -7,7 +7,7 @@ This repo contains many free-to-use fonts which are ready-to-use in your GBA pro
 
 ## Fonts & Licenses
 
-|Name|License|Characters|Preview|
+|Font|License|Characters|Preview|
 |---|---|---|---|
 |[HanaMin(Hanazono Mincho) / 花園明朝 / 花园宋体](http://fonts.jp/hanazono/)|[Hanazono Font License + SIL OFL 1.1](https://github.com/laqieer/gba-free-fonts/blob/main/licenses/HanaMin.txt)|101912|![](https://user-images.githubusercontent.com/8841957/153871980-5ab179f1-b13c-4c08-89cb-45e28936e4aa.png)|
 |[GNU Unifont](http://unifoundry.com/unifont/index.html)|[GNU GPLv2+ with the GNU Font Embedding Exception](https://github.com/laqieer/gba-free-fonts/blob/main/licenses/Unifont.1.txt) + [SIL OFL 1.1](https://github.com/laqieer/gba-free-fonts/blob/main/licenses/Unifont.2.txt)|78934|![](https://user-images.githubusercontent.com/8841957/153871992-f420e32d-caa5-4802-9d17-4850b5fa20a9.png)|
