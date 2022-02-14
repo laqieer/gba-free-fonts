@@ -155,7 +155,7 @@ namespace
 
         bn::vector<bn::sprite_ptr, 128>text_sprites;
         text_generator.generate(0, -68, "- WenQuanYi (Spring of Letters) -", text_sprites);
-        text_generator.generate(0, -48, "- Zenhei 文泉驿正黑 文泉驛正黑 -", text_sprites);
+        text_generator.generate(0, -48, "- Zen Hei 文泉驿正黑 文泉驛正黑 -", text_sprites);
         text_generator.generate(0, -28, "简体:义礼说选 繁體:義禮說選", text_sprites);
         text_generator.generate(0, -8, "日本語（にほんご ）한국어", text_sprites);
         text_generator.generate(0, 12, "扩A:㡛㬐㖧䵍㒰㓀㐁㐂㐃㐄㐅", text_sprites);
@@ -176,7 +176,7 @@ namespace
 
         bn::vector<bn::sprite_ptr, 128>text_sprites;
         text_generator.generate(0, -68, "- WenQuanYi (Spring of Letters) -", text_sprites);
-        text_generator.generate(0, -48, "- Microhei 文泉驿微米黑 文泉驛微米黑 -", text_sprites);
+        text_generator.generate(0, -48, "- Micro Hei 文泉驿微米黑 文泉驛微米黑 -", text_sprites);
         text_generator.generate(0, -28, "简体:义礼说选 繁體:義禮說選", text_sprites);
         text_generator.generate(0, -8, "日本語（にほんご ）한국어", text_sprites);
         text_generator.generate(0, 12, "不支持扩展A区！", text_sprites);
