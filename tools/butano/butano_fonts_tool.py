@@ -10,6 +10,8 @@ import sys
 import shlex
 import codecs
 import argparse
+import traceback
+import subprocess
 
 from file_info import FileInfo
 from PIL import Image
@@ -49,6 +51,11 @@ def list_texts_files(texts_paths):
 def process_texts_files(texts_file_paths):
     global unique_characters
     for texts_file_path in texts_file_paths:
+        if texts_file_path.lower().endswith('.c') or texts_file_path.lower().endswith('.cpp'):
+            text = subprocess.check_output([os.environ['DEVKITARM'] + '/bin/arm-none-eabi-cpp', '-fpreprocessed', texts_file_path],shell=True).decode('utf-8')
+            for char in text:
+                unique_characters.add(char)
+            continue
         with open(texts_file_path, 'r', encoding='UTF-8') as texts_file:
             for line in texts_file:
                 for char in line:
