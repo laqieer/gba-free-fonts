@@ -1,5 +1,5 @@
 # gba-free-fonts
-Free font resources for GBA game developemnt
+Free font resources for GBA game development
 
 This repo contains many free-to-use fonts which are ready-to-use in your GBA project.
 
@@ -42,7 +42,7 @@ dnf install python3-pillow
 # For Arch Linux users
 pacman -S python37-pillow
 ```
-2. Set path in `Mekefile`
+2. Set path in `Makefile`
 ```Makefile
 # FONTS is a list of directories containing font files.
 FONTS       :=  
