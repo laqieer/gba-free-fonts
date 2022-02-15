@@ -35,7 +35,7 @@ class FileInfo:
         read_failed = True
 
         if os.path.isfile(file_path):
-            with open(file_path, 'r') as file:
+            with open(file_path, 'r', encoding='utf-8') as file:
                 info = file.read()
                 read_failed = False
 
@@ -56,7 +56,7 @@ class FileInfo:
         self.__read_failed = read_failed
 
     def write(self, file_path):
-        with open(file_path, 'w') as file:
+        with open(file_path, 'w', encoding='utf-8') as file:
             file.write(self.__info)
 
     def __eq__(self, other):
