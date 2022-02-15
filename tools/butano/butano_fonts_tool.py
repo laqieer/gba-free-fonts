@@ -48,7 +48,7 @@ def list_texts_files(texts_paths):
     return texts_file_names, texts_file_paths
 
 
-def process_texts_files(texts_file_paths):
+def process_texts_files(texts_file_paths, characters_file_path):
     global unique_characters
     for texts_file_path in texts_file_paths:
         if texts_file_path.lower().endswith('.c') or texts_file_path.lower().endswith('.cpp'):
@@ -56,10 +56,13 @@ def process_texts_files(texts_file_paths):
             for char in text:
                 unique_characters.add(char)
             continue
-        with open(texts_file_path, 'r', encoding='UTF-8') as texts_file:
+        with open(texts_file_path, 'r', encoding='utf-8') as texts_file:
             for line in texts_file:
                 for char in line:
                     unique_characters.add(char)
+    with open(characters_file_path, 'w', encoding='utf-8') as characters_file:
+        for char in sorted(unique_characters):
+            characters_file.write(char)
 
 
 def list_fonts_files(fonts_folder_paths):
@@ -243,12 +246,19 @@ def process_fonts(fonts_folder_paths, build_folder_path, texts_paths):
     if old_font_file_info == new_font_file_info and old_text_file_info == new_text_file_info:
         return
 
+    characters_file_path = build_folder_path + '/_bn_characters.txt'
+    old_characters = FileInfo.read(characters_file_path)
+    process_texts_files(texts_file_paths, characters_file_path)
+    new_characters = FileInfo.read(characters_file_path)
+
+    if old_font_file_info == new_font_file_info and old_characters == new_characters:
+        return
+
     for fonts_file_name in fonts_file_names:
         print(fonts_file_name)
 
     sys.stdout.flush()
 
-    process_texts_files(texts_file_paths)
     total_number = process_fonts_files(fonts_file_paths, build_folder_path)
     print('    Processed character number: ' + str(total_number))
     new_font_file_info.write(font_file_info_path)
