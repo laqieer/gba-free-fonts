@@ -216,7 +216,7 @@ def process_fonts_files(fonts_file_paths, build_folder_path):
             fonts_image_trimmed = Image.new('RGB', (font_width, font_height * total_number), transparent_color)
             fonts_image_trimmed.paste(fonts_image)
             #fonts_image_trimmed.save(fonts_image_path_no_ext + '.png')
-            fonts_image_trimmed = fonts_image_trimmed.convert("P", palette=Image.ADAPTIVE, colors=16)
+            fonts_image_trimmed = fonts_image_trimmed.convert("P", palette=Image.Palette.ADAPTIVE, colors=16)
             transparent_color_index = fonts_image_trimmed.getpixel((0, 0))
             if transparent_color_index > 0:
                 dest_map = list(range(16))
