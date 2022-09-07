@@ -53,7 +53,7 @@ def process_texts_files(texts_file_paths, characters_file_path):
     for texts_file_path in texts_file_paths:
         texts_file_ext = os.path.splitext(texts_file_path.lower())[1]
         if texts_file_ext in ('.c', '.cpp', '.cc', '.cxx', '.c++', '.h', '.hpp', '.hh', '.hxx', '.h++', '.s', '.inc', '.asm'):
-            text = subprocess.check_output([os.environ['DEVKITARM'] + '/bin/arm-none-eabi-cpp', '-fpreprocessed', texts_file_path],shell=True).decode('utf-8')
+            text = subprocess.check_output([os.environ['DEVKITARM'] + '/bin/arm-none-eabi-cpp', '-fpreprocessed', texts_file_path]).decode('utf-8')
             for char in text:
                 unique_characters.add(char)
             continue
