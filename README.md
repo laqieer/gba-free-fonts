@@ -55,6 +55,9 @@ TEXTS       :=
 bn::sprite_text_generator text_generator(xxx_sprite_font);
 ```
 
-## [Others](https://github.com/laqieer/gba-free-fonts/blob/main/others.md)
+## Others
 
-*History: it starts [here](https://github.com/GValiente/butano/pull/18).*
+[Free-to-use 1bpp dot matrix fonts](https://github.com/laqieer/gba-free-fonts/blob/main/others.md) 
+
+## History
+This project starts [here](https://github.com/GValiente/butano/pull/18).
