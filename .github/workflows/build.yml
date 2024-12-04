@@ -1,0 +1,22 @@
+name: Build CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    container: devkitpro/devkitarm
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install python dependencies
+      run: apt-get update && apt-get install -y python3-pip && python3 -m pip install --upgrade pip && python3 -m pip install --upgrade Pillow
+
+    - name: Build examples/butano
+      run: cd .. && git clone https://github.com/GValiente/butano.git && cd gba-free-fonts/examples/butano && make
