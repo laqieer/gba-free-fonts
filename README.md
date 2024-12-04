@@ -1,4 +1,7 @@
 # gba-free-fonts
+
+[![Build CI](https://github.com/laqieer/gba-free-fonts/actions/workflows/build.yml/badge.svg)](https://github.com/laqieer/gba-free-fonts/actions/workflows/build.yml)
+
 Free font resources for GBA game development
 
 This repo contains many free-to-use fonts which are ready-to-use in your GBA project.
