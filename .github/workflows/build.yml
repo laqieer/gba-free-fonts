@@ -24,4 +24,4 @@ jobs:
     - uses: actions/upload-artifact@v4
       with:
         name: examples
-        path: gba-free-fonts/examples/butano/butano.gba
+        path: examples/butano/butano.gba
