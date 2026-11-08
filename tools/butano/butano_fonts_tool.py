@@ -232,7 +232,7 @@ def process_fonts_files(fonts_file_paths, build_folder_path):
                 dest_map[0], dest_map[transparent_color_index] = transparent_color_index, 0
                 fonts_image_trimmed = fonts_image_trimmed.remap_palette(dest_map)
             fonts_image_trimmed.save(fonts_image_path_no_ext + '.bmp')
-            with open(fonts_image_path_no_ext + '.json', 'w') as json_file:
+            with open(fonts_image_path_no_ext + '.json', 'w', encoding="utf-8") as json_file:
                 json_file.write('{\n')
                 json_file.write('    "type": "sprite",\n')
                 json_file.write('    "height": ' + str(font_height) + '\n')
